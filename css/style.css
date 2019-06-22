@@ -5,20 +5,36 @@ body {
     width: 100%;
 }
 
+#header-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#header-sub {
+    font-size: 15px;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
 td {
     border: 2px solid black;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     text-align: center;
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    cursor: pointer;
 }
 
 table {
     border-collapse: collapse;
     position: relative;
-    margin: 10% auto 5% auto;
+    margin: 5% auto;
 }
 
 table tr:first-child td {
@@ -39,6 +55,15 @@ table tr td:last-child {
 
 #endgame {
     display: none;
+}
+
+#text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+}
+
+#replay {
+    width: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
